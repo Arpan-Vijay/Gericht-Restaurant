@@ -1,0 +1,50 @@
+.app__intro{
+    background-color: var(--color-black);
+    flex-direction: column;
+    height: 100%;
+    
+}
+
+.app__intro-title{
+    margin-bottom: 2rem;
+}
+
+.app__video {    
+    /* height: 100vh; */
+    width: 100%;
+    position: relative;
+}
+
+.app__video video {
+    height: 80%;
+    width: 100%;
+}
+
+@media screen and (max-width: 1140px) {
+    .app__intro{
+        height: 50vh;
+    }
+
+    .app__video{
+        height: 100%;
+    }
+
+    .app__video video{
+        height: 100%;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .app__intro{
+        height: 50vh;
+    }
+
+    .app__video{
+        height: 100%;
+    }
+
+    .app__video video{
+        height: 100%;
+    }
+}
+
