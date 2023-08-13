@@ -1,4 +1,4 @@
-# Gericht Restaurant Website
+# Gericht Restaurant Website 🍽️
 
 Welcome to the official repository of Gericht Restaurant's website!
 
